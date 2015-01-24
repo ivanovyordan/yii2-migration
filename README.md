@@ -7,7 +7,7 @@ This is a small [Composer](https://getcomposer.org/) module that helps you reuse
 Either run the following command in your project root:
 
 ```sh
-php composer.phar require --prefer-dist ivanov-yordan/yii2-migration "*"
+php composer.phar require --prefer-dist ivanovyordan/yii2-migration "*"
 ```
 or add this to the require section of your `composer.json` file:
 
@@ -20,8 +20,8 @@ or add this to the require section of your `composer.json` file:
 Add the following to two rows to the `scripts` sections in your `composer.json` file:
 
 ```
-"post-install-cmd": "codeeval\\migration\\Migration::migrate",
-"post-update-cmd": "codeeval\\migration\\Migration::migrate"
+"post-install-cmd": "ivanovyordan\\migration\\Migration::migrate",
+"post-update-cmd": "ivanovyordan\\migration\\Migration::migrate"
 ```
 
 ## Usage ##

@@ -1,5 +1,5 @@
 <?php
-namespace codeeval\migration;
+namespace ivanovyordan\migration;
 use ComposerScriptEvent;
 
 class Migration {
