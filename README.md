@@ -12,7 +12,7 @@ php composer.phar require --prefer-dist ivanovyordan/yii2-migration "*"
 or add this to the require section of your `composer.json` file:
 
 ```sh
-"ivanov-yordan/yii2-migration": "*"
+"ivanovyordan/yii2-migration": "*"
 ```
 
 ## Setup ##
